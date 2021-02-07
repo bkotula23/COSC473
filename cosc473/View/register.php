@@ -1,4 +1,3 @@
-<?php include('Model/server.php') ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,15 +9,14 @@
   	<h2>Register</h2>
   </div>
 	
-  <form method="post" action="register.php">
-  	<?php include('View/errors.php'); ?>
+  <form method="post" action="index.php?flag=registerUser">
   	<div class="input-group">
   	  <label>Username</label>
-  	  <input type="text" name="username" value="<?php echo $username; ?>">
+  	  <input type="text" name="username" value="">
   	</div>
   	<div class="input-group">
   	  <label>Email</label>
-  	  <input type="email" name="email" value="<?php echo $email; ?>">
+  	  <input type="email" name="email" value="">
   	</div>
   	<div class="input-group">
   	  <label>Password</label>
@@ -32,7 +30,7 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
   	<p>
-  		Already a member? <a href="login.php">Sign in</a>
+  		Already a member? <a href="View/login.php">Sign in</a>
   	</p>
   </form>
 </body>
