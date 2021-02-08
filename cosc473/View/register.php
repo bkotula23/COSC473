@@ -30,7 +30,7 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
   	<p>
-  		Already a member? <a href="View/login.php">Sign in</a>
+  		Already a member? <a href="index.php?flag=loginUser">Sign in</a>
   	</p>
   </form>
 </body>
