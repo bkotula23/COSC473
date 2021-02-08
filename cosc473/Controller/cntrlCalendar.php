@@ -22,7 +22,15 @@ class cntrCal {
 		
 		if($flag=="register"){
 		   include "View/register.php";
-		}  
+		} 
+		
+		if($flag=="registerUser"){
+		   //include "View/errors.php";
+		   include "Model/server.php";
+		}
+		if($flag=="loginUser"){
+		   include "View/login.php";
+		}
 		/*
 		include "Model/server.php";
 		$this->model = new modelBook();
