@@ -1,19 +1,23 @@
 * {
-  margin: 0px;
+  margin: 0px
   padding: 0px;
 }
 body {
   font-size: 120%;
   background: white;
 }
+h1{
+  text-align: center;
+  color: #ad1836;
+}
 
 .header {
   width: 30%;
   margin: 50px auto 0px;
   color: black;
-  background: #DC143C;
+  background: #ad1836;
   text-align: center;
-  border: 1px solid #DC143C;
+  border: 1px solid #ad1836;
   border-bottom: none;
   border-radius: 10px 10px 0px 0px;
   padding: 20px;
@@ -46,10 +50,16 @@ form, .content {
   padding: 10px;
   font-size: 15px;
   color: white;
-  background: #DC143C;
+  background: #ad1836;
   border: none;
   border-radius: 5px;
-}/*
+}
+#iup {
+  text-align: right;
+  margin-right: 50px;
+  
+}
+/*
 .error {
   width: 92%; 
   margin: 0px auto; 

@@ -12,9 +12,13 @@
 
 				
 				<body>  
-							<h1>Register</h1>	  
+							<h1>Welcome to Tutor IUP!</h1>	  
 							
-							<p> 
+							<p id="iup"> 
+								<img src="images/iup.jpg" alt="IUP" width=100/>
+								<br/>
+	  						</p>
+							<p>
 							    <a href="index.php?flag=register"> Register </a> 
 							    &nbsp;&nbsp;&nbsp;&nbsp;
 							    <a href="index.php?flag=view"> View Book </a> 
