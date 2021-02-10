@@ -7,7 +7,8 @@
 ?>
 			<html>  
 			<head>  
-				<title>Tutor IUP</title>  
+				<title>Tutor IUP</title>
+				<link rel="stylesheet" type="text/css" href="View/style.css">  
 			</head> 
 
 				
@@ -19,11 +20,11 @@
 								<br/>
 	  						</p>
 							<p>
-							    <a href="index.php?flag=register"> Register </a> 
+								<button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=register"> Register </a> </button>
 							    &nbsp;&nbsp;&nbsp;&nbsp;
-							    <a href="index.php?flag=view"> View Book </a> 
+							    <button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=view"> View Book </a> </button>
 							    &nbsp;&nbsp;&nbsp;&nbsp;	
-							    <a href="index.php"> Home</a> 
+							    <button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php"> Home</a> </button>
 							</p>							
 				</body>  
 

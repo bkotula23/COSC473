@@ -24,6 +24,10 @@ class cntrCal {
 		   include "View/register.php";
 		} 
 		
+		if($flag=="tutor_register"){
+			include "View/tutor_register.php";
+		 }  
+
 		if($flag=="registerUser"){
 		   //include "View/errors.php";
 		   include "Model/server.php";

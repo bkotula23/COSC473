@@ -5,8 +5,12 @@
   <link rel="stylesheet" type="text/css" href="View/style.css">
 </head>
 <body>
+	<p style="text-align: center">
+		Are you a <button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=register">Student</a></button> or
+		<button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=tutor_register">Tutor</a></button>?
+	</p>
   <div class="header">
-  	<h2>Register</h2>
+  	<h2> Student Register</h2>
   </div>
 	
   <form method="post" action="index.php?flag=registerUser">
@@ -29,7 +33,7 @@
   	<div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
-  	<p>
+  	<p> 
   		Already a member? <a href="index.php?flag=loginUser">Sign in</a>
   	</p>
   </form>
