@@ -6,8 +6,8 @@
 </head>
 <body>
 	<p style="text-align: center">
-		Are you a <button type="submit" class="btn" name="reg_user"><a href="index.php?flag=register">Student</a></button> or
-		<button type="submit" class="btn" name="reg_user"><a href="index.php?flag=tutor_register">Tutor</a></button>?
+		Are you a <button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=register">Student</a></button> or
+		<button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=tutor_register">Tutor</a></button>?
 	</p>
   <div class="header">
   	<h2> Tutor Register</h2>
