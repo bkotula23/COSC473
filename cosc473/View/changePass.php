@@ -6,9 +6,9 @@
 </head>
 <body>
   <div class="header">
-  	<h2>Forgot Password</h2>
+  	<h2>Change Password</h2>
   </div>
-  <form method="post" action="index.php?flag=forgotPass">
+  <form method="post" action="index.php?flag=changePass">
   	<div class="input-group">
   	  <label>New password</label>
   	  <input type="password" name="password_1">

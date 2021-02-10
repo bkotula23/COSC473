@@ -12,7 +12,7 @@
   <form method="post" action="index.php?flag=loginUser">
   	<div class="input-group">
   		<label>Username</label>
-  		<input type="text" name="username" >
+  		<input type="text" name="username">
   	</div>
   	<div class="input-group">
   		<label>Password</label>
@@ -22,7 +22,8 @@
   		<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
   	<p>
-  		Not yet a member? <a href="index.php?flag=register">Sign up</a>
+  		Not yet a member? <a href="index.php?flag=register">Sign up<br></a>
+		Change Password? <a href="index.php?flag=forgotPass">Change Password</a>
   	</p>
   </form>
 </body>

@@ -35,6 +35,9 @@ class cntrCal {
 		if($flag=="loginUser"){
 		   include "View/login.php";
 		}
+		if($flag=="forgotPass"){
+		   include "View/changePass.php";
+		}
 		/*
 		include "Model/server.php";
 		$this->model = new modelBook();
