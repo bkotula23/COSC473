@@ -30,8 +30,12 @@
   	  <button type="submit" class="btn" name="reg_user">Register</button>
   	</div>
   	<p>
-  		Tutors and professors register here! <a href="index.php?flag=registerTutor">Tutor Registration</a><br />
-		Already a member? <a href="index.php?flag=loginUser">Sign in</a>
+  		Tutors and professors register here! <br /><br/><a href="index.php?flag=registerTutor">
+		  Tutor Registration</a> <br /> <br />
+		  Students register here! <br /><br/><a href="index.php?flag=registerStudent">
+		  Student Registration</a>
+		  <br /><br /><br />
+		Already a member? <br /><br /><a href="index.php?flag=loginUser">Sign in</a>
   	</p>
   </form>
 </body>
