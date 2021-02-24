@@ -1,8 +1,6 @@
 <?php
 
-
 include "View/viewSitehome.php";
-
 
 class cntrCal {
 
@@ -20,24 +18,48 @@ class cntrCal {
 	
 	    $this->viewMenu();		
 		
-		if($flag=="register"){
-		   include "View/register.php";
+		if($flag=="registerStudent"){
+		   include "View/studentRegister.php";
 		} 
 		
-		if($flag=="tutor_register"){
-			include "View/tutor_register.php";
-		 }  
-
-		if($flag=="registerUser"){
+		if($flag=="registerStudentmethod"){
 		   //include "View/errors.php";
-		   include "Model/server.php";
+		   include "Model/studentRegister.php";
 		}
+		if($flag=="registerTutor"){
+		   include "View/tutorRegister.php";
+		}
+		if($flag=="registerTutormethod"){
+		   //include "View/errors.php";
+		   include "Model/registerTutor.php";
+		}		
 		if($flag=="loginUser"){
 		   include "View/login.php";
 		}
 		if($flag=="forgotPass"){
 		   include "View/changePass.php";
 		}
+		if($flag=="login"){
+		   include "Model/login.php";
+		}
+		if($flag=="logout"){
+		   include "Model/logout.php";
+		}
+		if($flag=="changePassword"){
+		   include "view/changePass.php";
+		}
+		if($flag=="changePass"){
+		   include "Model/changePassword.php";
+		}
+			//admin register
+		/*if($flag=="registerAdminmethod"){
+		   include "Model/registerAdmin.php";
+		}
+		if($flag=="registerAdmin"){
+		   include "View/adminRegister.php";
+		}*/
+		
+		
 		/*
 		include "Model/server.php";
 		$this->model = new modelBook();
