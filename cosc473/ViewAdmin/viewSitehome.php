@@ -8,14 +8,15 @@
 			<html>  
 			<head>  
 				<link rel="stylesheet" type="text/css" href="ViewAdmin/style.css">
-				<title>Tutor IUP</title>  
+				<title>Tutor IUP</title> 
+				
 			</head> 
 
 				
 				<body>  
 							<h1>Tutor IUP - Admin Dashboard</h1>	  
 							
-							<p id=links> 
+							<p> 
 							
 								<a href="indexAdmin.php"> Search Users</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;

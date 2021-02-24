@@ -3,6 +3,7 @@
 <head>
   <title>Registration system</title>
   <link rel="stylesheet" type="text/css" href="view/style.css">
+  
 </head>
 <body>
   <div class="header">

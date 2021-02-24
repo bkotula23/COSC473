@@ -3,6 +3,7 @@
 <head>
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="View/style.css">
+  
 </head>
 <body>
   <div class="header">
