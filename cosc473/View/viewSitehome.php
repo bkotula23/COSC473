@@ -7,24 +7,24 @@
 ?>
 			<html>  
 			<head>  
-				<title>Tutor IUP</title>
-				<link rel="stylesheet" type="text/css" href="View/style.css">  
+				<link rel="stylesheet" type="text/css" href="view/style.css">
+				<title>Tutor IUP</title>  
 			</head> 
 
 				
 				<body>  
-							<h1>Welcome to Tutor IUP!</h1>	  
+							<h1>Tutor IUP</h1>	  
 							
-							<p id="iup"> 
-								<img src="images/iup.jpg" alt="IUP" width=100/>
-								<br/>
-	  						</p>
-							<p>
-								<button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=register"> Register </a> </button>
+							<p id=links> 
+							    <a href="index.php?flag=registerStudent"> Register </a> 
 							    &nbsp;&nbsp;&nbsp;&nbsp;
-							    <button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php?flag=view"> View Book </a> </button>
+								<!--<a href="index.php?flag=registerAdmin"> Register Admin </a> 
+							    &nbsp;&nbsp;&nbsp;&nbsp;-->
+							    <a href="index.php?flag=loginUser"> Log In </a> 
 							    &nbsp;&nbsp;&nbsp;&nbsp;	
-							    <button type="submit" class="btn" name="reg_user"><a style="color: white" href="index.php"> Home</a> </button>
+							    <a href="index.php"> Home</a>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+							
 							</p>							
 				</body>  
 
