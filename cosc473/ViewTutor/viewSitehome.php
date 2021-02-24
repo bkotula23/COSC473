@@ -8,7 +8,7 @@
 ?>
 			<html>  
 			<head>  
-				<link rel="stylesheet" type="text/css" href="view/style.css">
+				<link rel="stylesheet" type="text/css" href="View/style.css">
 				<title>Tutor IUP</title>  
 			</head> 
 
@@ -16,7 +16,7 @@
 				<body>  
 							<h1>Tutor IUP</h1>	  
 							
-							<p id=links> 		
+							<p> 		
 								<a href="indexTutor.php?flag=registerCourse"> Register Course</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
 							    <a href="indexTutor.php"> Home</a>

@@ -3,11 +3,11 @@
 <html>
 <head>
   <title>Register course</title>
-  <link rel="stylesheet" type="text/css" href="View/style.css">
+  <link rel="stylesheet" type="text/css" href="ViewTutor/styleTutor.css">
 </head>
 <body>
   <div class="header">
-  	<h2>Course Registration</h2>
+  	<h1>Course Registration</h1>
   </div>
 	 
   <form method="post" action="indexTutor.php?flag=verifyRegisterCourse">

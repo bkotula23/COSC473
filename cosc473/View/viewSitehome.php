@@ -15,7 +15,7 @@
 				<body>  
 							<h1>Tutor IUP</h1>	  
 							
-							<p id=links> 
+							<p class="link"> 
 							    <a href="index.php?flag=registerStudent"> Register </a> 
 							    &nbsp;&nbsp;&nbsp;&nbsp;
 								<!--<a href="index.php?flag=registerAdmin"> Register Admin </a> 

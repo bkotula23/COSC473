@@ -63,8 +63,18 @@ form, .content {
 #iup {
   text-align: right;
   margin-right: 50px;
-  
 }
+
+a{
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #ad1836;
+  border: none;
+  border-radius: 5px;
+}
+
+
 /*
 .error {
   width: 92%; 

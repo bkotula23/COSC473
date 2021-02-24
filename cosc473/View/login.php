@@ -9,7 +9,7 @@
   	<h2>Login</h2>
   </div>
 	 
-  <form method="post" action="index.php?flag=loginUser">
+  <form method="post" action="index.php?flag=login">
   	<div class="input-group">
   		<label>Username</label>
   		<input type="text" name="username">
