@@ -8,7 +8,7 @@
 ?>
 			<html>  
 			<head>  
-				<link rel="stylesheet" type="text/css" href="view/style.css">
+				<link rel="stylesheet" type="text/css" href="ViewStudent/style.css">
 				<title>Tutor IUP</title>  
 			</head> 
 
