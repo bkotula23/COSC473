@@ -52,12 +52,12 @@ class cntrCal {
 		   include "Model/changePassword.php";
 		}
 			//admin register
-		/*if($flag=="registerAdminmethod"){
+		if($flag=="registerAdminmethod"){
 		   include "Model/registerAdmin.php";
 		}
 		if($flag=="registerAdmin"){
 		   include "View/adminRegister.php";
-		}*/
+		}
 		
 		
 		/*

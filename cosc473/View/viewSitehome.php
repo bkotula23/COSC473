@@ -18,8 +18,8 @@
 							<p class="link"> 
 							    <a href="index.php?flag=registerStudent"> Register </a> 
 							    &nbsp;&nbsp;&nbsp;&nbsp;
-								<!--<a href="index.php?flag=registerAdmin"> Register Admin </a> 
-							    &nbsp;&nbsp;&nbsp;&nbsp;-->
+								<a href="index.php?flag=registerAdmin"> Register Admin </a> 
+							    &nbsp;&nbsp;&nbsp;&nbsp;
 							    <a href="index.php?flag=loginUser"> Log In </a> 
 							    &nbsp;&nbsp;&nbsp;&nbsp;	
 							    <a href="index.php"> Home</a>

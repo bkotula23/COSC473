@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="header">
-  	<h2>Student Registration</h2>
+  	<h2>Admin Registration</h2>
   </div>
 	
   <form method="post" action="index.php?flag=registerAdminmethod">

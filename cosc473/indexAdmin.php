@@ -2,7 +2,7 @@
 //landing home page for Admin
 
 
- include "ControllerAdmin/cntrlCalendar.php";
+ include "ControllerAdmin/cntrlAdmin.php";
 
  $cal = new cntrCal();
  
