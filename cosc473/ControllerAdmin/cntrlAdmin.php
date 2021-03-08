@@ -26,7 +26,13 @@ class cntrCal {
 		}
 		if($flag=="verifyRegisterCourse"){
 		   include "ModelAdmin/verifyCourseregistration.php";
-		}		
+		}
+		if($flag=="searchUsers"){
+		   include "ViewAdmin/searchUsers.php";
+		}	
+		if($flag=="searchUsersmodel"){
+		   include "ModelAdmin/userInformation.php";
+		}
 		
 	}
 }
