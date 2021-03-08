@@ -29,7 +29,14 @@ class cntrCal {
 		}
 		if($flag=="verifyRegisterCourse"){
 		   include "ModelStudent/verifyCourseregistration.php";
-		}		
+		}
+		if($flag=="viewCoursesmodel"){
+		   include "ModelStudent/viewCourses.php";
+		}
+		/*test username session
+		if($flag=="testUsername"){
+		   include "ModelStudent/checkUser.php";
+		}*/
 		
 	}
 }
