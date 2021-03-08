@@ -7,18 +7,17 @@
 ?>
 			<html>  
 			<head>  
-				<link rel="stylesheet" type="text/css" href="ViewAdmin/style.css">
-				<title>Tutor IUP</title> 
-				
+				<link rel="stylesheet" type="text/css" href="view/style.css">
+				<title>Tutor IUP</title>  
 			</head> 
 
 				
 				<body>  
 							<h1>Tutor IUP - Admin Dashboard</h1>	  
 							
-							<p> 
+							<p id=links> 
 							
-								<a href="indexAdmin.php"> Search Users</a>
+								<a href="indexAdmin.php?flag=searchUsers"> Search Users</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
 							    <a href="indexAdmin.php"> Home</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
