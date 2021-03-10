@@ -23,7 +23,7 @@
   		<button type="submit" class="btn" name="login_user">Login</button>
   	</div>
   	<p>
-  		Not yet a member? <a href="index.php?flag=registerStudent">Sign up<br></a>
+  		Not yet a member? <a href="index.php?flag=registerStudent">Sign up<br></a><br>
 		Forgot Password? <a href="index.php?flag=forgotPass">Forgot Password</a>
   	</p>
   </form>

@@ -5,17 +5,20 @@
 	<title>Password Reset</title>
 	  <link rel="stylesheet" type="text/css" href="View/style.css">
 </head>
-<body>
-	<form class="login-form" action="index.php?flag=forgotPass">
-		<h2 class="form-title">Reset password</h2>
+	<body>
+		<div class="header">
+			<h2 >Reset password</h2>
+		</div>
+		<form class="login-form" action="index.php?flag=forgotPass">
+		
 		<!-- form validation messages -->
-		<div class="form-group">
-			<label>Your email address</label>
-			<input type="email" name="email">
-		</div>
-		<div class="form-group">
-			<button type="submit" name="reset-password" class="login-btn">Submit</button>
-		</div>
-	</form>
-</body>
+			<div class="input-group">
+				<label>Your email address</label>
+				<input type="email" name="email">
+			</div>
+			<div class="input-group">
+				<button type="submit" class="btn" class="login-btn">Submit</button>
+			</div>
+		</form>
+	</body>
 </html>

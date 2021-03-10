@@ -37,7 +37,7 @@ class cntrCal {
 		   include "View/login.php";
 		}
 		if($flag=="forgotPass"){
-		   include "View/changePass.php";
+		   include "View/enter_email.php";
 		}
 		if($flag=="login"){
 		   include "Model/login.php";
@@ -49,7 +49,7 @@ class cntrCal {
 		   include "view/changePass.php";
 		}
 		if($flag=="changePass"){
-		   include "Model/changePassword.php";
+		   include "Model/changePass.php";
 		}
 			//admin register
 		if($flag=="registerAdminmethod"){
