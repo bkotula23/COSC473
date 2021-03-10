@@ -24,7 +24,7 @@
   	</div>
   	<p>
   		Not yet a member? <a href="index.php?flag=registerStudent">Sign up<br></a>
-		Change Password? <a href="index.php?flag=forgotPass">Change Password</a>
+		Forgot Password? <a href="index.php?flag=forgotPass">Forgot Password</a>
   	</p>
   </form>
 </body>
