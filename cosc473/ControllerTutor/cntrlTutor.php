@@ -26,6 +26,9 @@ class cntrCal {
 		}
 		if($flag=="verifyRegisterCourse"){
 		   include "ModelTutor/verifyCourseregistration.php";
+		}
+		if($flag=="calendar"){
+		   include "ModelTutor/calendar.html";
 		}		
 		
 	}
