@@ -8,17 +8,18 @@
 ?>
 			<html>  
 			<head>  
-				<link rel="stylesheet" type="text/css" href="ViewTutor/style.css">
+				<link rel="stylesheet" type="text/css" href="view/style.css">
 				<title>Tutor IUP</title>  
-				
 			</head> 
 
 				
 				<body>  
-							<h1>Tutor IUP</h1>	  
+							<h1>Tutor IUP - Tutor Dashboard</h1>	  
 							
-							<p> 		
+							<p id=links> 		
 								<a href="indexTutor.php?flag=registerCourse"> Register Course</a>
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="indexTutor.php?flag=calendar"> Calendar</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
 							    <a href="indexTutor.php"> Home</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
