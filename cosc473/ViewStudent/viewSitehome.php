@@ -19,6 +19,8 @@
 							<p id=links> 		
 								<a href="indexStudent.php?flag=viewCourses"> View Courses</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
+								<a href="indexStudent.php?flag=calendar"> Calendar</a>
+								&nbsp;&nbsp;&nbsp;&nbsp;
 							    <a href="indexStudent.php"> Home</a>
 								&nbsp;&nbsp;&nbsp;&nbsp;
 								<a href="indexStudent.php?flag=changePassword"> Change Password</a>
