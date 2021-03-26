@@ -33,6 +33,9 @@ class cntrCal {
 		if($flag=="viewCoursesmodel"){
 		   include "ModelStudent/viewCourses.php";
 		}
+		if($flag=="calendar"){
+		   include "ModelStudent/calendar.html";
+		}
 		/*test username session
 		if($flag=="testUsername"){
 		   include "ModelStudent/checkUser.php";
